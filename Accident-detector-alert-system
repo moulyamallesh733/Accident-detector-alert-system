@@ -1,0 +1,11 @@
+Accident-Detector-Alert-System/
+│── backend/
+│    ├── app.py
+│    └── requirements.txt
+│
+│── frontend/
+│    └── MIT_App_Inventor_Logic.txt
+│
+│── README.md
+
+
