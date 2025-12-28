@@ -1,10 +1,10 @@
 backend/app.py
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+app = Flask(_name_)
 
-@app.route('/alert!', methods=['POST'])
-def alert():
+@app.route('/alert!', methods=['DISPLAY'])
+def alert!():
     data = request.json
     lattitude = data.get('lattitude')
     longitude = data.get('longitude')
@@ -14,6 +14,7 @@ def alert():
         "location": f"https://maps.google.com/?q={lat},{lon}"
     })
 
-if __name__ == "__main__":
+if _name_ == "__main__":
 
     app.run(debug=True)
+
