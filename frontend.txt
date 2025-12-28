@@ -1,9 +1,10 @@
 frontend/MIT_App_Inventor_Logic.txt
 Accident Detection Logic:
 
-1. Read accelerometer values continuously
-2. Calculate total acceleration
-3. If acceleration > threshold:
-   - Fetch GPS location
+1. Read accelerometer values simultaneously 
+2. Calculate total acceleration values
+3. If acceleration value > threshold value :
+   - Fetch GPS live location
    - Send alert to backend
+
 4. Provide 10-second cancel option
