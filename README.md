@@ -1,20 +1,21 @@
 README.md
-# Accident Detector and Alert System 🚨🚗
+#AccidentGuard
+# Accident Detector and Alert System 
 
 ## Problem Statement
-Delay in emergency response after road accidents leads to loss of life.
+There are many accident taking place which go unaware sometimes for nearby people this Delay in emergency response after road accidents leads to loss of life.
 
 ## Solution
-A smartphone-based system that detects accidents using accelerometer sensors and sends emergency alerts with live GPS location.
+A smartphone-based system that detects accidents using accelerometer sensors and sends emergency alerts with live GPS location Automatically to emergency contacts.
 
 ## Technologies Used
-- Kiro IDE
+- Kiro IDE(Structuring the program)
 - Python (Flask)
 - MIT App Inventor
-- Android Sensors
+- Sensors
 
 ## System Architecture
-Mobile Sensors → Accident Detection → Alert Trigger → Emergency Notification
+Mobile Sensors > Accident Detection > Alert Trigger > GPS live > Emergency Notification
 
 ## Features
 - Automatic accident detection
@@ -23,6 +24,7 @@ Mobile Sensors → Accident Detection → Alert Trigger → Emergency Notificati
 - Manual SOS option
 
 ## Future Scope
-- AI-based accident severity analysis
+- AI-based accident detection analysis
 - Hospital and police integration
+
 - Smart city deployment
